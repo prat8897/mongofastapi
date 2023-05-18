@@ -23,8 +23,24 @@ The FastAPI Course Management Project provides a RESTful API for managing course
 2. Install the required dependencies:
 
          pip install -r requirements.txt
+         
+3. Set up MongoDB:
+
+Install MongoDB: Follow the installation instructions for your operating system from the official MongoDB documentation: MongoDB Installation
+
+Start MongoDB: Start the MongoDB server by running the appropriate command for your system. For example:
+
+    mongod
+4. Import the course data to MongoDB:
+
+Ensure MongoDB is running.
+
+Run the provided script to parse the course information from courses.json, create the appropriate databases and collections in MongoDB, and add the course data:
+
+    python script.py
+The script.py script assumes the courses.json file is in the same directory and connects to a local MongoDB instance.
     
-3. Start the FastAPI application:
+5. Start the FastAPI application:
 
          uvicorn app.main:app --host 0.0.0.0 --port 8000
     
