@@ -31,7 +31,15 @@ The FastAPI Course Management Project provides a RESTful API for managing course
 The application will be accessible at http://localhost:8000.
 
 Endpoints
+
+
 GET /courses: Get a list of available courses.
+
+
 GET /courses/{course_name}: Get detailed information about a course.
+
+
 GET /courses/{course_name}/{chapter_title}: Get information about a specific chapter within a course.
+
+
 POST /courses/{course_name}/{chapter_title}/rate: Rate a chapter (positive or negative) and aggregate ratings for each course.
