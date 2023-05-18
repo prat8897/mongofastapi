@@ -19,7 +19,7 @@ The FastAPI Course Management Project provides a RESTful API for managing course
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/fastapi-course-management.git
+   git clone https://github.com/prat8897/mongofastapi.git
    
 Install the required dependencies:
 
