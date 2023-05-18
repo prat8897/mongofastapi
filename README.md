@@ -17,17 +17,16 @@ The FastAPI Course Management Project provides a RESTful API for managing course
 ## Installation
 
 1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/prat8897/mongofastapi.git
+               
+         git clone https://github.com/prat8897/mongofastapi.git
    
-Install the required dependencies:
+2. Install the required dependencies:
 
-    pip install -r requirements.txt
+         pip install -r requirements.txt
     
-Start the FastAPI application:
+3. Start the FastAPI application:
 
-    uvicorn app.main:app --host 0.0.0.0 --port 8000
+         uvicorn app.main:app --host 0.0.0.0 --port 8000
     
 The application will be accessible at http://localhost:8000.
 
